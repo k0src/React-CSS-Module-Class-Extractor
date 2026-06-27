@@ -4,6 +4,8 @@
   "description": "Extract CSS Module class references from React and TypeScript files and copy CSS stubs to the clipboard.",
   "version": "0.0.2",
   "publisher": "k0src",
+  "repository": "https://github.com/k0src/React-CSS-Module-Class-Extractor",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.90.0"
   },
