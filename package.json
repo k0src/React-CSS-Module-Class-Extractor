@@ -1,0 +1,36 @@
+{
+  "name": "react-css-class-extractor",
+  "displayName": "React CSS Module Class Extractor",
+  "description": "Extract CSS Module class references from React and TypeScript files and copy CSS stubs to the clipboard.",
+  "version": "0.0.2",
+  "publisher": "k0src",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "reactCssClassExtractor.extractCss",
+        "title": "Extract CSS Module Classes"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "npm run compile && node test/run-tests.js",
+    "package": "npx vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/vscode": "^1.90.0",
+    "@vscode/vsce": "^3.9.2"
+  },
+  "dependencies": {
+    "typescript": "^6.0.3"
+  }
+}

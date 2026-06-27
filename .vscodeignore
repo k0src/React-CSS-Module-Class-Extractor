@@ -1,0 +1,11 @@
+.vscode/**
+.vscode-test/**
+src/**
+test/**
+tsconfig.json
+*.vsix
+*.map
+node_modules/@types/**
+node_modules/@vscode/vsce/**
+node_modules/typescript/lib/*.map
+npm-debug.log
